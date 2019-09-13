@@ -7,8 +7,6 @@ import { ProductAddComponent } from './product-add/product-add.component';
 import { ProductGetComponent } from './product-get/product-get.component';
 import { ProductEditComponent } from './product-edit/product-edit.component';
 import {MaterialModule} from './material/material.module';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatButtonModule} from '@angular/material/button'; 
 import {SlimLoadingBarModule} from 'ng2-slim-loading-bar';
 
 @NgModule({
@@ -21,8 +19,6 @@ import {SlimLoadingBarModule} from 'ng2-slim-loading-bar';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatToolbarModule,
-    MatButtonModule,
     SlimLoadingBarModule,
     MaterialModule
   ],
