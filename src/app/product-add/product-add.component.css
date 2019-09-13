@@ -1,0 +1,11 @@
+.product-add-card{
+    max-width: 500px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form > *{
+    width: 100%;
+}
