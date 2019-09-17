@@ -19,15 +19,15 @@ productRoutes.route('/add').post(function (req, res) {
 
 // Defined get data(index or listing) route
 productRoutes.route('/').get(function (req, res) {
-  Product.find(function (err, products){
-    if(err){
-      console.log(err);
-    }
-    else {
-      res.json(products);
-    }
+    Product.find(function (err, products){
+      if(err){
+        console.log(err);
+      }
+      else {
+        res.json(products);
+      }
+    });
   });
-});
 
 // Defined edit route
 productRoutes.route('/edit/:id').get(function (req, res) {
