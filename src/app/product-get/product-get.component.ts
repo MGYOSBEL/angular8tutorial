@@ -18,7 +18,7 @@ import {ProductsService} from '../products.service';
 export class ProductGetComponent implements OnInit {
 
   products: Product[] ;
-  displayedColumns: string[] = ['ProductName', 'ProductPrice', 'ProductDescription', 'Actions'];
+  displayedColumns: string[] = ['ProductName', 'ProductDescription', 'ProductPrice', 'Actions'];
   
 
   constructor(private ps: ProductsService) { }
